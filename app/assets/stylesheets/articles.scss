@@ -1,3 +1,146 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+    font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+    font-size: 18px;
+    margin: 5% 20% 5% 20%;
+    padding: 2% 5% 5% 5%;
+    width: 50%;
+    line-height: 150%;
+    border: 1px solid LightGrey;
+}
+
+H1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+}
+
+H2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-bottom: 60px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-bottom: 2px LightGrey solid;
+    width: 98%;
+    line-height: 150%;
+    color: #666666;
+}
+
+
+H3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 98%;
+    line-height: 150%;
+    color: #666666;
+}
+
+
+H4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 98%;
+    line-height: 150%;
+    color: #666666;
+}
+
+
+li {
+    margin-left: 10px;
+}
+
+q {
+    border-left: 4px lightgrey solid;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+blockquote {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 90%;
+    border: dashed 1px lightgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+pre {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace; 
+    font-size: 75%; 
+    border: solid 1px lightgrey; 
+    background-color: Ivory; 
+    padding: 5px; 
+    line-height: 130%; 
+    margin-left: 10px;
+    width: 95%;
+}
+
+pre code {
+    font-size: 100% !important; 
+    border: none !important; 
+    background-color: Ivory !important; 
+    color: #000 !important;
+    border-radius: 0 !important;
+    padding: 0 0 !important;
+}
+
+
+code {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 90%;
+    padding: 2px 4px;
+    color: #d14;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 3px;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: crosshair;
+    border-bottom: 1px dashed Red;
+    padding: 1px;
+    color: black;
+}
+
+
+a:hover {
+	background-color: LightGrey;
+}
+
+
+img {
+    display: block;
+    box-shadow: 0 0 10px #555;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 0 10px #555;
+}
+
+
+hr {
+    color: LightGrey;
+}
+
+table, th, td  {
+  border-collapse: collapse;
+  border: solid 1px black;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    text-align: left;    
+}
